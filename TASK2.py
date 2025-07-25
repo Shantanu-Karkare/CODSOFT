@@ -13,7 +13,7 @@ for i in range(1,4,1):
 
 # Show both choices
  print(f"\nYou chose: {user_choice}")
- print(f"Computer chose: {computer_choice}")
+ print(f"Computer choose: {computer_choice}")
 
 # Decide the winner
  if user_choice == computer_choice:
