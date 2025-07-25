@@ -2,9 +2,11 @@
 #Design a simple calculator with basic arithmetic Operations.
 print("\"Simple Calculator\"")
 print("----------------------")
+
 #Take user input
 num1=float(input("Enter the First number:"))
 num2=float(input("Enter the Second Number:"))
+
 #operation choice!!
 print("Choose an option:")
 print("1-Addition (+)")
@@ -12,6 +14,7 @@ print("2-Subtraction (-)")
 print("3-Multiplication (X)")
 print("4-Division (/)")
 choice=int(input("Enter your choice(1/2/3/4):"))
+
 #Perform the calculation
 if choice==1:
     Addition=num1 + num2
