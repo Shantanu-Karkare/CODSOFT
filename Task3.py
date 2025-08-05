@@ -19,7 +19,7 @@ def add_contact():
         return
     address=input("Enter the Address:-")
     contacts[name.lower()]={
-        "Moblie number":mobile_no,
+        "Mobile Number":mobile_no,
         "Email":email,
         "Address":address
     }
@@ -92,6 +92,7 @@ while True:
     else:
         print("Please enter a valid choice")
     
+
 
 
 
