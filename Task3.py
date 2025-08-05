@@ -17,11 +17,11 @@ def add_contact():
     if "@gmail.com" not in email:
         print("Please enter a valid email\n")
         return
-    adress=input("Enter the Adress:-")
+    address=input("Enter the Adress:-")
     contacts[name.lower()]={
         "Moblie number":mobile_no,
         "Email":email,
-        "Address":adress
+        "Address":address
     }
     print(f"Contact for {name} added successfully \n")  
 
@@ -48,11 +48,11 @@ def update_contact():
    if name in contacts:
     mobile_no=input("Enter updated Mobile Number:-")
     email=input("Enter your updated Email:-")
-    adress=input("Enter updated adress:-")  
+    address=input("Enter updated adress:-")  
     contacts[name.lower()]={
         "Mobile Number":mobile_no,
         "Email":email,
-        "Adress":adress
+        "Address":address
     } 
 
 def delete_contact():
@@ -83,4 +83,5 @@ while True:
         print("Exiting")
         break
     
+
 
