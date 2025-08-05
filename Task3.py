@@ -5,7 +5,7 @@ def menu():
     print("3. Search contact:-")
     print("4. Update contact:-")
     print("5. Delete contact:-")
-    print("1 EXIT:-")
+    print("6 EXIT:-")
 
 def add_contact():
     name=input("Enter Contact Name :-").lower()
@@ -79,3 +79,7 @@ while True:
         update_contact()
     elif choice==5:
         delete_contact()
+    elif choice==6:
+        print("Exiting")
+        break
+    
