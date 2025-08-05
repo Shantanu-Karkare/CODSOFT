@@ -14,7 +14,7 @@ def add_contact():
         print("\"Please Enter a valid mobile number\"\n")
         return
     email=input("Enter your Email:-")
-    if "@" not in email:
+    if "@gmail.com" not in email:
         print("Please enter a valid email\n")
         return
     adress=input("Enter the Adress:-")
@@ -83,3 +83,4 @@ while True:
         print("Exiting")
         break
     
+
